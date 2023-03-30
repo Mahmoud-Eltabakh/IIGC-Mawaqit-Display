@@ -12,6 +12,9 @@ How to prepare a linux System to be a Mawaqit Display:<br />
 ```Crontab -e ```<br />
 add the following lines at the end of the File<br />
 	```
+	
 	1 0 * * * sh [PATH]/autoupdate.sh > [PATH]/log 2>&1 
-	@reboot sleep 30 && sh [PATH]/StartMawaqit.sh > [PATH]/log 2>&1 ```<br />
+	@reboot sleep 30 && sh [PATH]/StartMawaqit.sh > [PATH]/log 2>&1 
+	
+	```
 
