@@ -4,10 +4,7 @@
 ## all rights reserved <br />
 iig.coburg@gmail.com<br />
 
-
-# IIGC-Mawaqit-Display<br />
 How to prepare a linux System to be a Mawaqit Display:<br />
-
 ###Create using crontab a time based table to let the App start the reboot and update the system regularly. <br /> 
 ```Crontab -e ```<br />
 add the following lines at the end of the File<br />
