@@ -9,7 +9,7 @@ iig.coburg@gmail.com<br />
 ```crontab -e ```<br />
 add the following lines at the end of the File<br />
 ```
-1 0 * * * sh [PATH]/autoupdate.sh >> [PATH]/log 2>&1 
-@reboot sleep 30 && sh [PATH]/StartMawaqit.sh >> [PATH]/log 2>&1
+1 0 * * * sh /home/pi/IIGC-Mawaqit-Display/autoupdate.sh >> /home/pi/IIGC-Mawaqit-Display/log/log 2>&1 
+@reboot sleep 30 && sh /home/pi/IIGC-Mawaqit-Display/StartMawaqit.sh >> /home/pi/IIGC-Mawaqit-Display/log/log 2>&1
 ```
 
