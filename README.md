@@ -9,7 +9,7 @@ iig.coburg@gmail.com<br />
 ```crontab -e ```<br />
 add the following lines at the end of the File<br />
 ```
-1 0 * * * sh [PATH]/autoupdate.sh > [PATH]/log 2>&1 
-@reboot unclutter -idle 0 && sleep 30 && sh [PATH]/StartMawaqit.sh > [PATH]/log 2>&1
+1 0 * * * sh [PATH]/autoupdate.sh >> [PATH]/log 2>&1 
+@reboot unclutter -idle 0 && sleep 30 && sh [PATH]/StartMawaqit.sh >> [PATH]/log 2>&1
 ```
 
